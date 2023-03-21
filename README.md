@@ -16,6 +16,8 @@ our data is made of to tables (Patient - Donor)
 - blood type
 - hospital
 - city
+
+
 ## Donor 
 - name
 - id
@@ -23,6 +25,10 @@ our data is made of to tables (Patient - Donor)
 - gender
 - blood type
 - city
+
+
+## Feature List Deconstruction
+by creating all CRUD actions Create, Read, Update and Delete, so API user to maneplate the data 
 
 
 ## Tools
