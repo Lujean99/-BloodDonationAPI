@@ -34,6 +34,8 @@ our data is made of to tables (Patient - Donor)
 - Update
 - Delete
 
+## Database Schema
+<h3><img align="left" src="Challenge Summary.png"> <br/> <br/>
 
 ## Tools
 [![Swift][SwiftUI-img]][SwiftUI-url]   [![Postman][Postman-img]][Postman-url]  [![Postgres][Postgres-img]][Postgres-url]  [![pgAdmin][pgAdmin-img]][pgAdmin-url]  [![postico2][postico2-img]][postico2-url]   [![Xcode][xcode-img]][xcode-url]
