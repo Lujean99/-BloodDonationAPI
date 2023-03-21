@@ -37,6 +37,10 @@ final class Patient: Content , Model {
     @Field(key: "bloodtype")
     var bloodtype : String
     
+    @Children(for: \.$patient)
+    var donoers:[Doners]
+    
+    
     init() {}
     
     init(id: UUID? = nil , firstname : String , lastname : String , phonenumber : Int , gender : String , age : Int , bloodtype : String ) {

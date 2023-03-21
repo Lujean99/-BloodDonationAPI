@@ -1,7 +1,7 @@
 // swift-tools-version:5.6
 import PackageDescription
 
-let package = Package(
+let package = Package( 
     name: "BloodDonation",
     platforms: [
        .macOS(.v12)

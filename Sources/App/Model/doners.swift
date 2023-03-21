@@ -37,9 +37,12 @@ final class Doners: Content , Model {
     @Field(key: "bloodtype")
     var bloodtype : String
     
+    @Parent(key: "patient_id")
+    var patient:Patient
+    
     init() {}
     
-    init(id: UUID? = nil , firstname : String , lastname : String , phonenumber : Int , gender : String , age : Int , bloodtype : String ) {
+    init(id: UUID? = nil , firstname : String , lastname : String , phonenumber : Int , gender : String , age : Int , bloodtype : String  , patientid :UUID) {
         
         self.id = id
         self.firstname = firstname
@@ -48,6 +51,7 @@ final class Doners: Content , Model {
         self.gender = gender
         self.age = age
         self.bloodtype = bloodtype
+      self.$patient.id = patientid
         
     }
     

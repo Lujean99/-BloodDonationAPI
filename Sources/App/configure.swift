@@ -20,5 +20,6 @@ public func configure(_ app: Application) throws {
     
     
     //Migration config
-    app.migrations.add([PatientTable() ,DonersTable()], to:.psql)
+    app.migrations.add([PatientTable() ,DonersTable()])
+    app.migrations.add(AddColumId())
 }

@@ -11,7 +11,7 @@ import FluentPostgresDriver
 import Fluent
 
 struct PatientTable : Migration {
-    func prepare(on database: Database) -> EventLoopFuture<Void> {
+    func prepare(on database: FluentKit.Database) -> NIOCore.EventLoopFuture<Void> {
         database.schema("patient")
             .id()
             .field("firstname" , .string)
@@ -21,22 +21,13 @@ struct PatientTable : Migration {
             .field("age" , .int)
             .field("bloodtype" , .string)
 
-
             .create()
     }
     
-    
-    
-    func revert(on database: Database) -> EventLoopFuture<Void> {
+    func revert(on database: FluentKit.Database) -> NIOCore.EventLoopFuture<Void> {
         database.schema("patient")
             .delete()
     }
-    
-    
-    
-    
-    
-    
     
 }
 
@@ -50,22 +41,13 @@ struct DonersTable : Migration {
             .field("gender" , .string)
             .field("age" , .int)
             .field("bloodtype" , .string)
-
+         //   .field("patient_id" , .uuid, .references("patients", "id"))
 
             .create()
     }
-    
-    
     
     func revert(on database: Database) -> EventLoopFuture<Void> {
         database.schema("doners")
             .delete()
     }
-    
-    
-    
-    
-    
-    
-    
 }
