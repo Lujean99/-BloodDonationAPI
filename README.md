@@ -28,7 +28,11 @@ our data is made of to tables (Patient - Donor)
 
 
 ## Feature List Deconstruction
-by creating all CRUD actions Create, Read, Update and Delete, so API user to maneplate the data 
+### CRUD actions 
+- Create
+- Read
+- Update
+- Delete
 
 
 ## Tools
