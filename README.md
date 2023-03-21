@@ -35,11 +35,11 @@ our data is made of to tables (Patient - Donor)
 - Delete
 
 ## Database Schem
-### UML
+### UML diagram:
 <h3><img align="left" src="UML.png"> <br/> <br/> 
 
 
-### ER
+### ER diagram:
 <h3><img align="left" src="ER.png"> <br/> <br/>
 
 ## Tools
