@@ -13,7 +13,7 @@ some body
 
 
 ## Tools
-[![SwiftUI][SwiftUI-img]][SwiftUI-url]   [![Postman][Postman-img]][Postman-url]  [![Postgres][Postgres-img]][Postgres-url]  [![pgAdmin][pgAdmin-img]][Postman-url]   
+[![Swift][SwiftUI-img]][SwiftUI-url]   [![Postman][Postman-img]][Postman-url]  [![Postgres][Postgres-img]][Postgres-url]  [![pgAdmin][pgAdmin-img]][Postman-url]   
 
 
 
