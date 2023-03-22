@@ -51,11 +51,7 @@ our data is made of to tables (Patient - Donor)
 
 ## Team
 
-Lujeen Alradhi
-
-
-
-  <a href="">Lujeen Alradhi</a>
+  <a href="https://www.linkedin.com/in/lujean-alradhi-72b417209/">Lujeen Alradhi</a>
   
   
   <a href="https://www.linkedin.com/in/randalmuhanna/">Rand AlMuhanna </a>
