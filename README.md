@@ -53,9 +53,16 @@ our data is made of to tables (Patient - Donor)
 
 Lujeen Alradhi
 
-Rand Almuhanna
 
-Rand Alhassoun
+
+  <a href="">Lujeen Alradhi</a>
+  
+  
+  <a href="https://www.linkedin.com/in/randalmuhanna/">Rand AlMuhanna </a>
+  
+  
+  <a href="https://www.linkedin.com/in/rand-alhassoun-b067b91a3/">Rand Alhassoun </a>
+
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
